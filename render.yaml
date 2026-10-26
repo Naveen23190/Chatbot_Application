@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: chat-bot
+    env: docker # Tells Render to use your Dockerfile
+    buildCommand: "" # Standard builds run on Docker startup
+    startCommand: "" # Leave empty, uses ENTRYPOINT from Dockerfile
+    
